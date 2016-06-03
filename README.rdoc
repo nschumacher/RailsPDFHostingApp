@@ -5,4 +5,7 @@ This simple Rails application template allows users to upload PDFs to the applic
 - The PDF cannot be larger than 16 MB
 
 - The PDF content is stored as a binary blob. This method is said to be better than storing the files in folders on disk when the files are ~<1 MB.
-<tt>rake doc:app</tt>.
+
+Helpful sources:
+- http://ryan.endacott.me/2014/06/10/rails-file-upload.html
+- http://stackoverflow.com/questions/6897762/rails-pdf-file-display
