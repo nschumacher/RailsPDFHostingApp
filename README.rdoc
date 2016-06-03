@@ -1,28 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This simple Rails application template allows users to upload PDFs to the application's database and display them inline.
 
-Things you may want to cover:
+- The PDF cannot be larger than 16 MB
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
+- The PDF content is stored as a binary blob. This method is said to be better than storing the files in folders on disk when the files are ~<1 MB.
 <tt>rake doc:app</tt>.
